@@ -12,7 +12,6 @@
 		4C1882011B5C213B0067609E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1882001B5C213B0067609E /* ViewController.m */; };
 		4C1882041B5C213B0067609E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1882021B5C213B0067609E /* Main.storyboard */; };
 		4C1882061B5C213B0067609E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1882051B5C213B0067609E /* Images.xcassets */; };
-		4C1882091B5C213B0067609E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C1882071B5C213B0067609E /* LaunchScreen.xib */; };
 		4C1882151B5C213B0067609E /* CamCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1882141B5C213B0067609E /* CamCamTests.m */; };
 		4C1882251B5C24D60067609E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C18821F1B5C24D60067609E /* Bolts.framework */; };
 		4C1882261B5C24D60067609E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1882201B5C24D60067609E /* Parse.framework */; };
@@ -65,7 +64,6 @@
 		4C1882001B5C213B0067609E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4C1882031B5C213B0067609E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C1882051B5C213B0067609E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4C1882081B5C213B0067609E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4C18820E1B5C213B0067609E /* CamCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1882131B5C213B0067609E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C1882141B5C213B0067609E /* CamCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamCamTests.m; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 				4C18827F1B5EC2430067609E /* CameraViewController.m */,
 				4C1882021B5C213B0067609E /* Main.storyboard */,
 				4C1882051B5C213B0067609E /* Images.xcassets */,
-				4C1882071B5C213B0067609E /* LaunchScreen.xib */,
 				4C1881F81B5C213B0067609E /* Supporting Files */,
 				4C18821E1B5C24C40067609E /* Frameworks */,
 			);
@@ -340,7 +337,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C1882041B5C213B0067609E /* Main.storyboard in Resources */,
-				4C1882091B5C213B0067609E /* LaunchScreen.xib in Resources */,
 				4C1882061B5C213B0067609E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,14 +394,6 @@
 				4C1882031B5C213B0067609E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4C1882071B5C213B0067609E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C1882081B5C213B0067609E /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
