@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <ParseUI/ParseUI.h>
+#import "FollowButton.h"
 
 
-@interface HomeViewController : PFQueryTableViewController
+@interface HomeViewController : PFQueryTableViewController <FollowButtonDelegate>
+
+- (NSIndexPath *)_indexPathForPaginationCell;
 
 @end

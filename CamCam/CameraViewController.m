@@ -27,6 +27,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+	self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"nav_logo"]];
+//	self.titleTextField.layer.borderColor = [UIColor colorWithRed:49/255.0 green:150/255.0 blue:214/255.0 alpha:1.0];
+//	self.titleTextField.layer.borderWidth = 1.0;
+//	self.titleTextField.layer.cornerRadius = 5.0;
 }
 
 - (void)didReceiveMemoryWarning {

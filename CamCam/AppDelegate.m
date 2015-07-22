@@ -27,8 +27,8 @@
 	[Parse enableLocalDatastore];
  
 	// Initialize Parse.
-	[Parse setApplicationId:@""
-				  clientKey:@""];
+	[Parse setApplicationId:@"mrOlzvrb8zmw3l1QbDCnbieriHj9suza88Dvcpj4"
+				  clientKey:@"eNGR74BmJ6E5FIYSi6oHEeBQKbVFztZHRzV2WlcK"];
  
 	// [Optional] Track statistics around application opens.
 	[PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
@@ -57,7 +57,7 @@
 //	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
 //	UINavigationController *loginNavigationController = [storyboard instantiateViewControllerWithIdentifier:@"loginNav"];
 //	[self.window.rootViewController presentViewController:loginNavigationController animated:animated completion:nil];
-	PFLogInViewController *loginViewController = [[PFLogInViewController alloc] init];
+	LoginViewController *loginViewController = [[LoginViewController alloc] init];
 	loginViewController.delegate = self;
 	[loginViewController setFields:PFLogInFieldsFacebook];
 	[self.window.rootViewController presentViewController:loginViewController animated:animated completion:nil];
