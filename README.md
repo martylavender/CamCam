@@ -20,6 +20,11 @@ Parse SDK
 ## Version 
 * Version 1.0
 
+## Needs to be fixed
+* Masking on some images does not appear as a circle
+* Some layout constraints need to be updated
+* Need to add alternate method to sign up ---> Views are already present but need to be linked up.
+
 ## Contact
 #### Developer/Company
 * Homepage: martylavender.com
