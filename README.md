@@ -11,7 +11,7 @@ to manage logins. CamCam uses Parse for its backend.
 ## Tests
 #### Works on
 Should run on iOS7+
-Layout was designed specifically got iPhone 6 at present
+Layout was designed specifically for iPhone 6 at present
 
 ### Third party libraries
 Facebook SDK
